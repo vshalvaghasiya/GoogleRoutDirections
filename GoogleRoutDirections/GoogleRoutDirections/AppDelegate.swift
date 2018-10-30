@@ -16,12 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
-        //AIzaSyBsshOS75eSpPZhJEczyvgVKTDe9sWk-uo // Google Map Key
-        //AIzaSyDdb3A75bDLxuHDVbXE45kZ11PhWkr3Nb0 // Google Place Key
-        //AIzaSyDZHxgZ5ttAs4z3n2TGXUzEQVV2Co-6270 // Google DirectionKey
-        GMSServices.provideAPIKey("AIzaSyBsshOS75eSpPZhJEczyvgVKTDe9sWk-uo")
-        GMSPlacesClient.provideAPIKey("AIzaSyDdb3A75bDLxuHDVbXE45kZ11PhWkr3Nb0")
+        GMSServices.provideAPIKey("Google Map Key")
+        GMSPlacesClient.provideAPIKey("Google Place Key")
         return true
     }
 
